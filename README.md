@@ -1,8 +1,6 @@
 # EyeLidSimulator (ELS)
 ## ELS: GT Generator
 
-
-Inline-style: 
 ![alt text](images/main_image.jpg "Main")
 
 
@@ -42,7 +40,7 @@ LandMarks: Show/Hidde the landmarks
 
 Generate GT: Generate a folder with your time system and create random poses, iris,skin,skin color, and save it into an image and json file.
 
-##JSON File
+## JSON File
 
 "eyelid_left": Left Eyelid 2D backward projection (x,y,z)
 "eyelid_right": Right Eyelid 2D backward projection (x,y,z)
