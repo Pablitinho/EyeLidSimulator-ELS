@@ -1,4 +1,4 @@
-# EyeLidSimulator (ELS)
+# ELS: EyeLidSimulator
 ## ELS: GT Generator
 
 ![alt text](images/main_image.jpg "Main")
@@ -13,8 +13,9 @@
 
 ## Download link
 
-ELS (Beta 1.0):
+ELS 0.1b:
 
+[Download Windows](https://drive.google.com/file/d/1sEavjkovPL0h18fcsXpN96oOFpt20YYU/view?usp=sharing)
 
 ## Manual
 
@@ -26,7 +27,9 @@ ELS (Beta 1.0):
 
 - **l** : Change Eyeslash type.
 
-- **esc**: Stop the GT generation.
+- **esc**: Stop the GT generation and enable again the GUI.
+
+- **alt+F4**: Quit.
 
 ### Mouse 
 
@@ -68,3 +71,10 @@ ELS (Beta 1.0):
 -**"look_vec_right"**: Right Gaze 2D backward projection (x,y,z)
 
 -**"head_rotation"**: Head rotation (Euler) in degrees (Pitch,Yaw,Roll)
+
+# Changes
+
+### 0.1b
+
+First beta release.
+
