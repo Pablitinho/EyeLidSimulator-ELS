@@ -3,8 +3,9 @@
 
 ![alt text](images/main_image.jpg "Main")
 
+![alt text](images/makeup.jpg "Main")
 
- This tool let's you generate millions of different sythetic data, combining skin,iris color, eyelid apperture, etc.. in order to train your AI model to detect different features of the eye:
+This tool let's you generate millions of different sythetic data, combining skin,iris color, eyelid apperture, etc.. in order to train your AI model to detect different features of the eye:
 
 - Iris 
 - Pupil
@@ -12,6 +13,10 @@
 - Eyelid
 
 ## Download link
+
+ELS 0.2b:
+
+[Download Windows](https://drive.google.com/file/d/1hMo7eV6L9537kiTQwKd1uUicl8BvfZsf/view?usp=sharing)
 
 ELS 0.1b:
 
@@ -52,6 +57,8 @@ ELS 0.1b:
 
 - **Generate GT**: Generate a folder with your time system and create random poses, iris,skin,skin color, and save it into an image and json file.
 
+- **Combine Makeup Skin**: Create both kind of skins, i.e., generate skin with and without makeup.
+
 ## JSON File
 
 -**"eyelid_left"**: Left Eyelid 2D backward projection (x,y,z)
@@ -72,7 +79,37 @@ ELS 0.1b:
 
 -**"head_rotation"**: Head rotation (Euler) in degrees (Pitch,Yaw,Roll)
 
+## Configuration.xml
+
+This file is located in the root folder and it contains the parameters to generate the GT.
+
+**Head:** roll,pitch and yaw rotation
+
+**Eye:** iris and pupil apperture
+
+**Eyelid:** eyelid apperture 
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<head>
+  <roll max="12.0" min="-12.0" />
+  <pitch max="2.0" min="-2.0" />
+  <yaw max="20.0" min="-20.0" />    
+  <iris  max="10.0" min="3.0"/>
+  <pupil  max="120.0" min="-20.0"/>
+  <eyelid max="100.0" min="0.0" />
+</head>  
+</configuration>
+```
+
 # Changes
+
+### 0.2b
+
+- Fixed some bugs
+- Added Makeup texture
+- Added configuration file (configuration.xml)
 
 ### 0.1b
 
