@@ -6,6 +6,7 @@ Version 0.1b
 ![alt text](images/makeup.jpg "Main")
 Version 0.2b
 
+
 This tool let's you generate millions of different sythetic data, combining skin,iris color, eyelid apperture, etc.. in order to train your AI model to detect different features of the eye:
 
 - Iris 
@@ -22,6 +23,17 @@ ELS 0.2b:
 ELS 0.1b:
 
 [Download Windows](https://drive.google.com/file/d/1sEavjkovPL0h18fcsXpN96oOFpt20YYU/view?usp=sharing)
+
+## Python 
+
+In order to visualize the generated output in python, you can use "vizualize.py" python script contained in python folder.
+
+```python
+python.exe visualize.py --folder ./test/
+```
+
+![alt text](images/python_output.jpg "Main")
+Python output example.
 
 ## Manual
 
@@ -109,7 +121,7 @@ This file is located in the root folder and it contains the parameters to genera
 ### 0.2b
 
 - Fixed some bugs
-- Added Makeup texture
+- Added Makeup textures
 - Added configuration file (configuration.xml)
 
 ### 0.1b
