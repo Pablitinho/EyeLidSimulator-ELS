@@ -2,8 +2,9 @@
 ## ELS: GT Generator
 
 ![alt text](images/main_image.jpg "Main")
-
+Version 0.1b
 ![alt text](images/makeup.jpg "Main")
+Version 0.2b
 
 This tool let's you generate millions of different sythetic data, combining skin,iris color, eyelid apperture, etc.. in order to train your AI model to detect different features of the eye:
 
