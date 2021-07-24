@@ -30,7 +30,12 @@ def plotEyeLM(img,ldmks_eyelid, ldmks_pupil, ldmks_iris):
 	cv2.polylines(img, np.array([ldmks_iris[:,:2]], int), True, (0,255,255), 1)
 
 def plotGT(folder_path):
+
+	json_fns = []
 	json_fns = glob(folder_path+"*.json")
+
+	if not json_fns:
+	    raise RuntimeError('The folder is empty.')
 
 	for json_fn in json_fns:
 
