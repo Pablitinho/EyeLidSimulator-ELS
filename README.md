@@ -18,11 +18,11 @@ This tool let's you generate millions of different sythetic data, combining skin
 
 ELS 0.2b:
 
-[Download Windows](https://drive.google.com/file/d/1hMo7eV6L9537kiTQwKd1uUicl8BvfZsf/view?usp=sharing)
+[Download Windows](https://drive.google.com/file/d/1r2LHyweiWH5nJ69QP4bgjp4MfrfVz4RH/view?usp=sharing)
 
 ELS 0.1b:
+[Download Windows](https://drive.google.com/file/d/1inJt2stM27DYEf2KLlJv0coNhl7mwVTZ/view?usp=sharing)
 
-[Download Windows](https://drive.google.com/file/d/1sEavjkovPL0h18fcsXpN96oOFpt20YYU/view?usp=sharing)
 
 ## Python 
 
@@ -125,6 +125,6 @@ This file is located in the root folder and it contains the parameters to genera
 - Added configuration file (configuration.xml)
 
 ### 0.1b
-
+ 
 First beta release.
 
